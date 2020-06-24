@@ -21,6 +21,7 @@ class TodoList extends React.Component {
         this.setState({
             myList: list
         });
+        console.log('dddd')
     }
     //添加ddddd
     itemAdd() {
