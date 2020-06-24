@@ -85,7 +85,7 @@ class TodoList extends React.Component {
                     return <li key={index} style={{margin:"20px"}}>
                         {item}
                         <button style={{marginLeft:"20px",backgroundColor:"yellow",outline:"none",borderColor:"#FFCC33"}} onClick={this.itemUpdate.bind(this, index)}>变更</button>&nbsp;&nbsp;
-                        <button style={{marginLeft:"20px",backgroundColor:"red",outline:"none",borderColor:"#CC0000"}} onClick={this.ItemDelete.bind(this,index)}>删除</button>
+                        <button style={{marginLeft:"20px",backgroundColor:"red",outline:"none",borderColor:"#CC0000"}} onClick={this.ItemDelete.bind(this,index)}>删除!</button>
                     </li>                  
                 })}
             </ol>
