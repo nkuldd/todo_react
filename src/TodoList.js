@@ -22,7 +22,7 @@ class TodoList extends React.Component {
             myList: list
         });
     }
-    //添加
+    //添加ddddd
     itemAdd() {
       if(this.state.todoItem){
         const newList = [...this.state.myList];
