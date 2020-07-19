@@ -59,7 +59,7 @@ class TodoList extends React.Component {
     }
     //改
     itemUpdate(index) {
-        let newItem = window.prompt('变更事项为： ');
+        let newItem = window.prompt('变更事项： ');
         if (newItem){
           const newList = this.state.myList;
           newList.splice(index,1,newItem);
