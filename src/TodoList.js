@@ -33,7 +33,7 @@ class TodoList extends React.Component {
         });
         window.localStorage.setItem('list', newList); 
       }else{
-        window.alert('请填写内容！')
+        window.alert('请填写！')
       }  
     }
     //回车添加事项
@@ -68,7 +68,7 @@ class TodoList extends React.Component {
           })
           window.localStorage.setItem('list', newList);
         }else{
-          window.alert('请填写内容！')
+          window.alert('请填写！')
         }
     }
     render() {
